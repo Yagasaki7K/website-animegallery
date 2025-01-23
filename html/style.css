@@ -4,6 +4,23 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Figtree', sans-serif;
+}
+
+:root {
+	--background: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #181826;
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	font-family: "Figtree", sans-serif;
 }
 
